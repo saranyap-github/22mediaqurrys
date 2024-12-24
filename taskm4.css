@@ -1,0 +1,15 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+@media screen and (width < 500px){
+    h2{
+        color:#00ff37;
+    }
+}
+@media screen and (width > 500px){
+    h2{
+        color:rgb(77, 0, 128);
+    }
+}

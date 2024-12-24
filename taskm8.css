@@ -1,0 +1,23 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+h1{
+    color: darkblue;
+}
+@media screen and (width < 400px){
+    h1{
+        font-size:20px;
+    }
+}
+@media screen and (width > 400px) and (width < 900px){
+    h1{
+        font-size:28px;
+    }
+}
+@media screen and (width  > 900px){
+    h1{
+        font-size:36px;
+    }
+}
